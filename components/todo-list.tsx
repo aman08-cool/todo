@@ -72,7 +72,7 @@ export default function TodoList()
 
         <div className="space-y-2">
           {tasks.length === 0 ? (
-            <p className="text-center text-muted-foreground py-4">No tasks yet. Add one above!</p>
+            <p className="text-center text-muted-foreground py-4">No tasks yet. Add one above!!</p>
           ) : (
             tasks.map((task) => (
               <div key={task.id} className="flex items-center justify-between rounded-lg border p-3 shadow-sm">
